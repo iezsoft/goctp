@@ -97,6 +97,7 @@
 	<error id="QUOTE_DERIVEDORDER_ACTIONERROR" value="92" prompt="CTP:报价衍生单要等待交易所返回才能撤单"/>
 	<error id="INSTRUMENTMAP_NOT_FOUND" value="93" prompt="CTP:找不到组合合约映射"/>
 	<error id="CANCELLATION_OF_OTC_DERIVED_ORDER_NOT_ALLOWED" value="94" prompt="CTP:不允许撤销OTC衍生报单"/>
+	<error id="BAD_PRICE_VALUE" value="95" prompt="CTP：不支持的价格"/>
 	<!--灾备系统错误代码 -->		
 	<error id="NO_TRADING_RIGHT_IN_SEPC_DR" value="101" prompt="CTP:用户在本系统没有报单权限"/>
 	<error id="NO_DR_NO" value="102" prompt="CTP:系统缺少灾备标示号"/>
@@ -243,5 +244,9 @@
   <error id="OPTION_SELF_CLOSE_STATUS_ERR" value="3045" prompt="CTP:期权对冲,履约对冲:对冲状态不对，不能撤销"/>
   <error id="OPTION_SELF_CLOSE_DOUBLE_SET_ERR" value="3046" prompt="CTP:期权对冲,履约对冲:不能重复设置，只能先撤销再设置"/>
   <error id="QUOTE_WRONG_HEDGE_TYPE" value="3047" prompt="CTP:报价不支持改投机套保类型"/>
+  <error id="API_FRONT_SHAKE_HAND_ERR" value="4040" prompt="CTP:API Front shake hand err"/>
+  <error id="DUPLICATE_SUBMIT" value="4041" prompt="CTP:DUPLICATE_SUBMIT"/>
+  <error id="AUTHIP_CHECK_ERR" value="4042" prompt="CTP:IP授权验证失败"/>
+  <error id="AUTHUSER_CHECK_ERR" value="4043" prompt="CTP:用户与客户端授权验证失败"/>
 
 </errors>
